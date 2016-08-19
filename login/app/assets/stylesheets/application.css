@@ -1,4 +1,58 @@
-body { padding-top: 100px; }
+body { 
+	padding-top: 200px;
+	background-image: url("http://www.trbimg.com/img-56ddea61/turbine/la-fg-global-womens-rights");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.tint {
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(78, 162, 153, 0.7);    
+}
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+.containers{
+	text-align: center;
+	margin-top: 100px;
+	color:white;
+}
+
+.links{
+	margin-top: 15px;
+}
+
+.links a:link{
+	color:white;
+}
+
+.links a{
+	color: #d5dde4;
+	font-size: 10pt;
+}
+
+.slogan{
+	font-size: 36pt;
+}
+
+.option{
+	font-size: 18pt;
+}
+
+.remember-me{
+	margin-right: 37px;
+}
+
+.action{
+}
+
+.btn{
+	width: 11em;
+
+}

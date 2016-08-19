@@ -3,11 +3,9 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
-    <p>Hello, it's me</p>
-
   <div class="field">
     <%= f.label :username %><br />
-    <%= f.text_field :username, autofocus: true %>
+    <%= f.text_field :username, autofocus: "off" %>
   </div>
 
   <div class="field">
@@ -28,9 +26,9 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
+  <br>
+
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "Sign up" , class: "btn btn-success"%>
   </div>
 <% end %>
-
-<%= render "devise/shared/links" %>
